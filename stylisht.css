@@ -10,12 +10,14 @@
     z-index: 1;
 }
 nav{
-    margin-top: 2px;
+    
     background-color: gray;
     display: flex;
-    height: 10%;
+    height: 12vh;
     align-items: center;
     justify-content: space-evenly;
+    width: 100vw;
+    position: fixed;
 }
 nav ul{
     list-style: none;
@@ -49,7 +51,7 @@ nav form{
     margin-left: 10px;
     
     border-radius: 25px;
-    height: 45px;
+    height: 6vh;
     overflow: hidden;
     border: none;
     box-shadow: inset 5px 5px 15px lightgrey, -5px -5px 15px  lightgray;
@@ -67,45 +69,27 @@ nav form input{
 }
 nav form button{
     text-align: center;
-    width: 60%;
+    width: 4vw;
     background-color:  gray;
     outline: none;
     overflow: hidden;
     border: none;
 }
-.logo{
-    background-color: rgb(221, 118, 118);
-    height: 25px;
-    align-items: center;
-    white-space: nowrap;
-    
-}
-.logo span {
-      display: inline-block;
-      padding-left: 80%;           /* start from right */
-      animation: scrollText 12s linear infinite;
-}
-@keyframes scrollText {
-      from {
-        transform: translateX(0);
-      }
-      to {
-        transform: translateX(-100%);}}
-    .deal{
+
+.deal{
         width: 300px;
-    }   
-    .deal{
         display: block;
-        margin: 0 auto;
+        margin: 25px auto;
+       
     } 
-    .container{
+.container{
         display: grid;
         grid-template-columns: repeat(3, 1fr);
         gap: 20px;
         padding: 20px;
         
     }
-    .productcard{
+.productcard{
 
         border-radius: 10px;
         justify-content: center;
@@ -114,10 +98,10 @@ nav form button{
     
         padding: 15px;
     }
-    .productcard img{
+.productcard img{
         border-radius: 8px;
       max-width: 100%;
-      height: 155px;
+      height: 25vh;
     }
 .productcard span {
     font-size: 16px; /* Text size */
