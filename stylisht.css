@@ -13,7 +13,7 @@ nav{
     margin-top: 2px;
     background-color: gray;
     display: flex;
-    height: 75px;
+    height: 10%;
     align-items: center;
     justify-content: space-evenly;
 }
@@ -67,7 +67,7 @@ nav form input{
 }
 nav form button{
     text-align: center;
-    width: 70px;
+    width: 60%;
     background-color:  gray;
     outline: none;
     overflow: hidden;
