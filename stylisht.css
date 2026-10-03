@@ -10,7 +10,7 @@
     z-index: 1;
     
 /* Tablet aur Mobile screens ke liye (≤ 768px) */
-@media only screen(max-width: 768px) {
+@ media only screen and(max-width: 768px) {
   .nav { 
     flex-direction: column;   /* Nav links ko vertical stack kar diya */
   }
