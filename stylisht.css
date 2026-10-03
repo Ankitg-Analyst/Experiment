@@ -3,22 +3,38 @@
     padding: 0;
     box-sizing: border-box;
 }
+@media only screen and (max-width: 400px) {
+    .container {
+    grid-template-columns: 1fr;
+  }
+  nav { 
+    flex-direction: column;   /* Nav links vertical */
+    height: auto;             /* Height adjust ho jaaye */
+    position: static;
+  }
+  nav ul {
+    flex-direction: column;
+    gap: 10px;
+  }
+  .productcard { 
+    width: 100%; 
+    margin: 10px 0;
+  }
+  nav form {
+    width: 90%;
+  }
+  form button{
+    width: 20%;
+  }
+}
+    
+
 .pic{
     position: relative;
     left: -30px;
     height: 125px;
     z-index: 1;
-    
-/* Tablet aur Mobile screens ke liye (≤ 768px) */
-@ media only screen and(max-width: 768px) {
-  nav { 
-    flex-direction: column;   /* Nav links ko vertical stack kar diya */
-  }
-  .productcard { 
-    width: 100%;              /* Product card full width le lega */
-  }
 }
-
 nav{
     
     background-color: gray;
