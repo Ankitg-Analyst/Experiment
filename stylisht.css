@@ -9,8 +9,8 @@
     height: 125px;
     z-index: 1;
     
-    /* Tablet aur Mobile screens ke liye (≤ 768px) */
-@media (max-width: 768px) {
+/* Tablet aur Mobile screens ke liye (≤ 768px) */
+@media only screen(max-width: 768px) {
   .nav { 
     flex-direction: column;   /* Nav links ko vertical stack kar diya */
   }
@@ -19,16 +19,6 @@
   }
 }
 
-/* Chhote mobiles ke liye (≤ 480px) */
-@media (max-width: 480px) {
-  .nav a { 
-    font-size: 14px;          /* Nav links ka font chhota kar diya */
-  }
-  .productcard { 
-    font-size: 12px;          /* Product card text aur chhota */
-  }
-}
-}
 nav{
     
     background-color: gray;
