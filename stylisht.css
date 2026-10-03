@@ -3,7 +3,6 @@
     padding: 0;
     box-sizing: border-box;
 }
-
     
 
 .pic{
@@ -20,7 +19,7 @@ nav{
     align-items: center;
     justify-content: space-evenly;
     width: 100%;
-    
+    position: fixed;
 }
 nav ul{
     list-style: none;
@@ -43,7 +42,7 @@ nav ul li a{
     box-shadow: inset 5px 5px 15px lightgray, -5px -5px 15px  lightgray;
     transition: transform 0.3s ease;
     position: relative;
-    left: -15px;
+    
 }
 nav ul li a:hover{
     transform: scale(1.1);
@@ -111,14 +110,16 @@ nav form button{
     font-weight: bold; /* Bold text */
     color: #333; /* Dark grey color */
 }
-@media only screen and (max-width: 400px) {
+
+@media only screen and (max-width: 768px) {
     .container {
     grid-template-columns: 1fr;
   }
   nav { 
     flex-direction: column;   /* Nav links vertical */
-    height: auto;             /* Height adjust ho jaaye */
+    height: 60px;             /* Height adjust ho jaaye */
     position: static;
+    align-items: center;
   }
   nav ul {
     flex-direction: column;
