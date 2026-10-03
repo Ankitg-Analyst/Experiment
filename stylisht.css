@@ -36,7 +36,7 @@ nav{
     height: 12vh;
     align-items: center;
     justify-content: space-evenly;
-    width: 100vw;
+    width: 100%;
     position: fixed;
 }
 nav ul{
