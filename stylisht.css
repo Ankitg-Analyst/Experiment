@@ -15,11 +15,11 @@ nav{
     
     background-color: gray;
     display: flex;
-    height: 12vh;
+    height: 90px;
     align-items: center;
     justify-content: space-evenly;
     width: 100%;
-    position: fixed;
+    
 }
 nav ul{
     list-style: none;
@@ -132,7 +132,7 @@ nav form button{
   nav form {
     width: 90%;
   }
-  form button{
+  nav form button{
     width: 20%;
   }
 }
