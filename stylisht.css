@@ -20,7 +20,7 @@ nav{
     align-items: center;
     justify-content: space-evenly;
     width: 100%;
-    position: fixed;
+    
 }
 nav ul{
     list-style: none;
